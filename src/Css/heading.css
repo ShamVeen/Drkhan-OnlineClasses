@@ -1,0 +1,54 @@
+
+.heading{
+    height: 20vh;
+    text-align: center;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+}
+.primary-heading{
+    color: #F3BD00;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+.heading h1{
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 0;
+}
+.heading h3{
+    font-size: 1.3rem;
+    
+}
+
+@media(max-width: 767px){
+    .main-page {
+      display: list-item;
+      gap: 1rem;
+      margin-top: 3rem;
+    }
+  
+  .Header p{
+    display: content;
+  }
+  }
+  
+  @media(max-width: 574px){
+    /* .Header{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+  } */
+
+  .heading{
+    margin-top: 470px;
+  }
+  
+  .Header p{
+    display: content;
+  }
+  
+  
+  }
+  

@@ -1,0 +1,32 @@
+.student-thought{
+	background-color: #187466;
+    height: 90vh;
+    margin-bottom: 10px;
+}
+
+.student-video{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.student-thought h2{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.video-1{
+    margin-right: 40px;
+}
+
+.video-2{
+    margin-left: 40px;
+}
+
+.student-video p{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+}

@@ -1,0 +1,409 @@
+.App {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.button-static {
+  background: #f3bd00;
+  color: white;
+  font-size: 2rem;
+
+  width: auto;
+  height: 3rem;
+  border: none;
+  font-family: 'poppins', sans-serif;
+  padding: 0px 10px;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.button-static:hover {
+  background: white;
+  border: 1px solid #f3bd00;
+  color: #2f2d2e;
+}
+.button {
+  background: white;
+  border: 1px solid #f3bd00;
+  font-family: 'poppins', sans-serif;
+  padding: 0px 10px;
+  margin: 0.8rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background: #f3bd00;
+  color: white;
+}
+/* Navbar */
+
+/* .Navbar{
+  display:flex;
+  height: 2rem;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 1px 5px 0px black;
+  margin-bottom: 7rem;
+}
+.Navbar a{
+  color:#0C2B4B;
+  text-decoration: none;
+}
+.nav-content{
+  display: flex;
+  gap: 2rem;
+  margin: 0 1rem;
+}
+.nav-list{
+  display: flex;
+  
+  list-style: none;
+  gap: 1rem;
+} */
+.navbar {
+  background: #fff;
+  height: 170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.nav-center {
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-header img {
+  margin-right: 10px;
+}
+
+.nav-toggle {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  display: none;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-links li {
+  list-style: none;
+  color: #287a57;
+  text-decoration: none;
+}
+
+.nav-links a {
+  color: #333;
+  text-transform: capitalize;
+  margin: 0 1rem;
+  transition: all 0.3s linear;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  /* background: #333; */
+  color: black;
+}
+
+.nav-links a:visited {
+  text-decoration: none;
+  list-style: none;
+}
+
+.show-nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: absolute;
+  top: 80px;
+  right: 0;
+  background: #fff;
+  width: 100%;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+  .nav-header {
+    width: 100%;
+  }
+  .show-nav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    background: #fff;
+    width: 100%;
+    border-radius: 0 0 0.5rem 0.5rem;
+  }
+
+  .show-nav li {
+    margin: 0.5rem 0;
+  }
+}
+/* Our Pride */
+.pride {
+  text-align: center;
+}
+/* Main Contaier code */
+
+.main-page {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+  height: 70vh;
+  /* margin-top: -20px; */
+}
+
+
+.main-page .free-class img {
+  width: 60%;
+  height: 300px;
+}
+
+@media (max-width: 767px) {
+  .main-page {
+    display: inline-block;
+    gap: 1rem;
+    margin-top: 3rem;
+    margin-left: 4rem;
+  }
+
+  .Header p {
+    display: content;
+  }
+}
+
+@media (max-width: 574px) {
+  
+  .Header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Header p {
+    display: content;
+  }
+
+  .teachers {
+    display: list-item;
+  }
+}
+
+/* .left-container{
+  display: flex;
+  flex-direction: column;
+} */
+
+.left-container {
+  margin-top: 3rem;
+}
+.left-container h1 {
+  font-size: 2.5rem;
+}
+.left-container h2 {
+  font-size: 1.5rem;
+}
+.left-container h3 {
+  font-size: 1.5rem;
+}
+.right-container img {
+  width: 500px;
+  height: auto;
+}
+.right-container span {
+  display: flex;
+  flex-direction: column;
+}
+#name {
+  color: #f3bd00;
+}
+.bg-light {
+  color: #f3bd00;
+  font-size: 1.6rem;
+  padding: 5px;
+}
+
+/* How are we different*/
+.different {
+  margin-top: 5rem;
+}
+.Different {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2rem;
+  /* margin-bottom: 2rem; */
+}
+.Different img {
+  width: 500px;
+  object-fit: cover;
+}
+
+.Different .Content p {
+  font-family: cursive;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.Content {
+  width: 500px;
+}
+.Content h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+.Content p {
+  padding: 10px;
+  font-size: 1.2rem;
+}
+#unique-id {
+  color: #f3bd00;
+  padding: 0;
+  margin: 0;
+}
+/* Card */
+
+.teachers {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 400px;
+  height: 400px;
+  background: rgb(255, 255, 252);
+  border-radius: 5%;
+  margin-bottom: 7rem;
+  text-align: center;
+  padding: 5px;
+  text-transform: capitalize;
+}
+
+@media (max-width: 574px) {
+  .teachers {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 80px;
+  }
+
+  .card {
+    width: 350px;
+    height: 400px;
+    background: rgb(255, 255, 252);
+    border-radius: 5%;
+    margin-bottom: 7rem;
+    text-align: center;
+    padding: 5px;
+    text-transform: capitalize;
+  }
+}
+
+.upper-container {
+  width: inherit;
+  height: 350px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.img-container {
+  width: inherit;
+  height: inherit;
+}
+.img-container img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.lower-container {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.lower-container h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.lower-container h3 {
+  color: #0c2b4b;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.lower-container h4 {
+  color: #1c1919;
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.lower-container p {
+  margin: 1rem;
+  color: black;
+  font-weight: auto;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.Card .experience {
+  color: black;
+  text-transform: capitalize;
+}
+
+/* Footer */
+
+footer {
+  background: #65ad44;
+  color: azure;
+  font-size: 0.8rem;
+  padding: 3rem;
+}
+
+/* FAQ AREA */

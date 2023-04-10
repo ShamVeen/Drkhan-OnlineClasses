@@ -1,0 +1,50 @@
+.Header {
+  display: flex;
+  position: sticky;
+  background:rgb(15, 66, 66);
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 1rem;
+  margin: 0;
+  height: 60px;
+  overflow: hidden;
+}
+a {
+  color: white;
+}
+
+/* a:visited {
+  color: #f3bd00;
+} */
+
+
+/* responsive */
+
+@media(max-width: 767px){
+  .Header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Header p{
+  display: content;
+}
+}
+
+@media(max-width: 574px){
+  .Header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Header p{
+  display: content;
+}
+}
+
+
+
+

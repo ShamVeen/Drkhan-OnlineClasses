@@ -1,0 +1,16 @@
+.nav-links li a{
+ color:rgb(26, 114, 114);
+ font-weight: 600;
+ font-size: 22px;
+}
+
+#logo{
+    height: 180px;
+    margin-top: -20px;
+  }
+
+  .nav-header span{
+    font-weight: 600;
+    color: rgb(8, 67, 8);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }

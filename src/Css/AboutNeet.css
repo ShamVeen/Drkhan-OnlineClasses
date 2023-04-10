@@ -1,0 +1,38 @@
+.about-neet-title{
+    text-align: center;
+}
+
+.about-neet-title h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.about-neet-dropdown{
+    margin: 80px
+}
+
+#neet-head{
+    font-size: 30px;
+    font-weight: 600;
+}
+.neet-1{
+    display: flex;
+}
+@media(max-width: 767px){
+    /* .about-neet-dropdown{
+      width: 100%;
+      margin-bottom: 30px;
+  } */
+  }
+  @media(max-width: 574px){
+   .about-neet{
+    margin-top: 280px;
+   }
+   .about-neet-dropdown{
+    width: min-content;
+   }
+   .neet-1{
+    display: inline-block;
+   }
+  }
+  

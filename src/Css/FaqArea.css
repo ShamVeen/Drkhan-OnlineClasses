@@ -1,0 +1,15 @@
+.faq-area{
+margin: 60px;
+margin-left: 8rem;
+margin-right: 8rem;
+}
+
+.faq-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.faq-title h2{
+    font-size: 3rem;
+    font-weight: 600;
+}
