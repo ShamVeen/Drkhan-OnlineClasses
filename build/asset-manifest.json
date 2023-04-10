@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7fa0e296.css",
+    "main.js": "/static/js/main.a099c042.js",
+    "static/js/787.634bf9de.chunk.js": "/static/js/787.634bf9de.chunk.js",
+    "static/media/Realtime.gif": "/static/media/Realtime.880803c03f0a84579027.gif",
+    "static/media/Free Live class.gif": "/static/media/Free Live class.4b377e76fadaeeed3e6c.gif",
+    "static/media/NEET.gif": "/static/media/NEET.0316e0f9147de3b59cae.gif",
+    "static/media/Happy.gif": "/static/media/Happy.e737d9f778719879d374.gif",
+    "static/media/1.png": "/static/media/1.4f5a3d9228e3cc992f2f.png",
+    "static/media/2.png": "/static/media/2.3d0ae14ae88557a912d7.png",
+    "static/media/3.png": "/static/media/3.57dead501940d7e38050.png",
+    "static/media/Students.png": "/static/media/Students.6e49916861e7f4d5743b.png",
+    "static/media/girl-study.jpg": "/static/media/girl-study.fd56eec87d3f9eeb5b14.jpg",
+    "static/media/khan.png": "/static/media/khan.277ea8f11cf1b8d4ee6d.png",
+    "static/media/student1.jpg": "/static/media/student1.f8a0ac02b7acd2a0bef0.jpg",
+    "static/media/student2.jpeg": "/static/media/student2.2ec6b5e789efc2619b53.jpeg",
+    "static/media/neet-details-table3.png": "/static/media/neet-details-table3.43605571b8ef0a26532f.png",
+    "static/media/neet-details-table2.png": "/static/media/neet-details-table2.dd2d916ab56f0068db2f.png",
+    "static/media/student3.jpg": "/static/media/student3.9805b6a6bac1012c7f01.jpg",
+    "static/media/Dr. Khan LOGO.svg": "/static/media/Dr. Khan LOGO.3bf00d6ec1e95a72c655fb713dddfae6.svg",
+    "static/media/weekly-image.png": "/static/media/weekly-image.d81699923e5f9cfee570.png",
+    "static/media/neet-details-table.png": "/static/media/neet-details-table.9ad09be3c71b4572591b.png",
+    "static/media/right-tick.jpg": "/static/media/right-tick.4c647d4133a23e97bbdd.jpg",
+    "index.html": "/index.html",
+    "static/media/triangle.svg": "/static/media/triangle.560bc29b0ff613a2a2b3.svg",
+    "main.7fa0e296.css.map": "/static/css/main.7fa0e296.css.map",
+    "main.a099c042.js.map": "/static/js/main.a099c042.js.map",
+    "787.634bf9de.chunk.js.map": "/static/js/787.634bf9de.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7fa0e296.css",
+    "static/js/main.a099c042.js"
+  ]
+}
