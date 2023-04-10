@@ -5,7 +5,7 @@ import '../Css/StudentThought.css';
 // import wahibkhan from '../images/Wahib-Khan.mp4';
 function StudentThought() {
   const [youtubeUrl, setYoutubeUrl] = useState(
-    'https://www.youtube.com/shorts/wYSLdJsxArI'
+    'https://youtube.com/shorts/c4JgKK65AZU'
   );
   const [youtubeUrl2, setYoutubeUrl2] = useState(
     'https://www.youtube.com/shorts/gvhCBu9tG8w'
@@ -14,7 +14,9 @@ function StudentThought() {
   return (
     <div className="student-thought">
       <Container>
-        <h2 style={{paddingTop: '40px', fontSize: '2.3rem'}}>Our Student Thoughts</h2>
+        <h2 style={{ paddingTop: '40px', fontSize: '2.3rem' }}>
+          Our Student Thoughts
+        </h2>
         <div className="student-video">
           {/* <iframe height="400" width="500"    
 src="https://www.youtube.com/shorts/embed/wYSLdJsxArI?autoplay">   

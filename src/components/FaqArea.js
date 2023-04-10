@@ -108,7 +108,7 @@ const FaqArea = () => {
               . This is to ensure students consistency in class and take class
               seriously. Kids should not make a habit of watching recorded
               session. <br />
-              What are the benefits of Dr.KhanOnline Classes? <br />•
+              <b>Q- What are the benefits of Dr.KhanOnline Classes?</b> <br />•
               Dr.KhanOnline Classes brings the learning at the students'
               desktop, so the student can get the unmatched guidance from
               IITians and Doctors in secure and comfortable environment of his
@@ -147,7 +147,7 @@ const FaqArea = () => {
               doubts / changes to improve the performance of student.
               <br /> o Unlike the conventional coaching classes, Dr.KhanOnline
               Classes allows parents to participate in class and{' '}
-              <span style={{ color: 'red' }}>
+              <span style={{ color: 'orange' }}>
                 check the quality of teaching
               </span>
               .
@@ -165,7 +165,8 @@ const FaqArea = () => {
                 Fees will be on Monthly basis. So YOU have full Power. No traps.
                 No Strings Attached
               </span>
-              .<br/> Fees can be sent via UPI or directly to account of Dr. Khan.
+              .<br /> Fees can be sent via UPI or directly to account of Dr.
+              Khan.
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>

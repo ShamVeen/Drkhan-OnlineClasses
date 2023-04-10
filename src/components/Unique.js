@@ -7,18 +7,27 @@ import '../Css/Unique.css';
 
 function Unique(props) {
   return (
-    <div className="Unique-main" id="service">
+    <div className="Unique-main">
       <div className="heading">
         {/* <h2 className='primary-heading'>What Unique we have ....</h2> */}
         {/* <h3>BIOLOGY | PHYSICS | CHEMISTRY</h3>  */}
         {/* <h3>HOW ARE WE DIFFERENT?</h3> */}
-        <Heading primary="Unique" secondary="How are we different?" />
-
+        <h3>What Unique About Us</h3>
         {/* <p className="primary-heading">{props.primary}</p>
             <h1>{props.secondary}</h1> */}
       </div>
 
       <div className="unique">
+        <section className="wavy">
+          <div className="wrapper">
+            {/* <h2 className="section-title">Wavy</h2> */}
+            <p>
+              <VscCircleFilled style={{ fontSize: '17px' }} /> POWER in YOUR
+              Hand....Tuition Model for Fees payment also available...i.e.{' '}
+              <b>On monthly Basis..</b>
+            </p>
+          </div>
+        </section>
         <section className="wavy">
           <div className="wrapper">
             {/* <h2 className="section-title">Wavy</h2> */}

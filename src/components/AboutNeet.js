@@ -7,7 +7,7 @@ import neetTable3 from '../images/neet-details-table3.png';
 
 function AboutNeet() {
   return (
-    <div className='about-neet'>
+    <div className='about-neet' id="neet">
       <div className="about-neet-title">
         <h2>NEET : Everything You Need to Know</h2>
       </div>

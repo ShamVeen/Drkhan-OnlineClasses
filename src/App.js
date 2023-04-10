@@ -7,6 +7,7 @@ import Slider from './components/Testimonials';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import AboutUs from './components/AboutUs';
+import ContactUs from './components/ContactUs';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
 
@@ -64,6 +65,8 @@ function App() {
       <AboutUs />
 
       <Registration />
+      <ContactUs/>
+
       <Unique />
 
       <Different />

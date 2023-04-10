@@ -26,7 +26,7 @@ const Slider = () => {
   }, [index]);
 
   return (
-    <section className="section">
+    <section className="section" id='testimonials'>
       <div className="title">
       </div>
       <div className="section-center">

@@ -1,15 +1,20 @@
-.Unique-main{
-  margin-top: 8rem;
-}
+/* .Unique-main {
+  margin-top: 1rem;
+} */
+.heading h3 {
+  color: rgb(26, 114, 114);
 
-.unique{
-    text-align: center;
-    margin-top: 0rem;
-    margin-bottom: 2rem;
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 600;
 }
-.unique p{
+.unique {
+  text-align: center;
+  margin-top: -5rem;
+  margin-bottom: 2rem;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.unique p {
   font-family: cursive;
 }
 /* .unique-one{
@@ -19,94 +24,86 @@
     margin-left: 0 20rem 0 20rem;
 } */
 
-
 .wrapper {
-    max-width: 50rem;
-    margin-inline: auto;
-    padding-inline: 1rem;
-    font-weight: 700;
-  }
-  
-  .site-title {
-    font-size: 3rem;
-    text-align: center;
-  }
-  
-  .section-title {
-    font-size: 2.25rem;
-  }
-  
-  section {
-    padding-block: 5rem;
-  }
-  
-  .diagonal {
-    --skew-angle: -5deg;
-    --background: linear-gradient(
-                    45deg, 
-                    #12c2e9, 
-                    #c471ed, 
-                    #f64f59
-                  );
-  
-    position: relative;
-    isolation: isolate;
-  }
-  
-  .diagonal::after {
-    content: '';
-    background: var(--background);
-    position: absolute;
-    z-index: -1;
-    inset: 0;
-    transform: skewY(var(--skew-angle));
-  }
-  
-  .spikes {
-    --spike-width: 50px;
-    --spike-height: 10px;
-    --spike-color: var(--body-bg);
-    
-    position: relative;
-    color: black;
-    background: 
-      linear-gradient(
-        to right, 
-        #fdc830, 
-        #f37335);
-  }
-  
-  .spikes::before,
-  .spikes::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: var(--spike-height);
-    background: var(--spike-color);
-    -webkit-mask-image: url('../Assests/triangle.svg');
-    -webkit-mask-size: var(--spike-width) var(--spike-height);
-    /* -webkit-mask-repeat: repeat-x; */
-    mask-image: url('../Assests/triangle.svg');
-    mask-size: var(--spike-width) var(--spike-height);
-    /* mask-repeat: repeat-x; */
-  }
-  
-  .spikes::before {
-    top: 0;
-  }
-  .spikes::after {
-    bottom: 0;
-    transform: rotate(.5turn);
-  }
-  
-  
-  .wavy {
-    /* mask created with 
+  max-width: 60rem;
+  margin-inline: auto;
+  padding-inline: 1rem;
+  font-weight: 600;
+}
+
+.site-title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.25rem;
+}
+
+section {
+  padding-block: 5rem;
+}
+
+.diagonal {
+  --skew-angle: -5deg;
+  --background: linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);
+
+  position: relative;
+  isolation: isolate;
+}
+
+.diagonal::after {
+  content: '';
+  background: var(--background);
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  transform: skewY(var(--skew-angle));
+}
+
+.spikes {
+  --spike-width: 50px;
+  --spike-height: 10px;
+  --spike-color: var(--body-bg);
+
+  position: relative;
+  color: black;
+  background: linear-gradient(to right, #fdc830, #f37335);
+}
+
+.spikes::before,
+.spikes::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: var(--spike-height);
+  background: var(--spike-color);
+  -webkit-mask-image: url('../Assests/triangle.svg');
+  -webkit-mask-size: var(--spike-width) var(--spike-height);
+  /* -webkit-mask-repeat: repeat-x; */
+  mask-image: url('../Assests/triangle.svg');
+  mask-size: var(--spike-width) var(--spike-height);
+  /* mask-repeat: repeat-x; */
+}
+
+.spikes::before {
+  top: 0;
+}
+.spikes::after {
+  bottom: 0;
+  transform: rotate(0.5turn);
+}
+
+.wavy {
+  /* mask created with 
     https://css-generators.com/wavy-shapes/ */
-    margin: 30px;
-    margin-left: 180px;
-    margin-right: 180px;
-    background: 
+  margin: 10px;
+  margin-left: 180px;
+  margin-right: 180px;
+  height: 60px;
+  background-color: rgb(63, 161, 114)  ;
+  border-radius: 30px;
+  /* background: 
       linear-gradient(
         to right, 
         #14d561, 
@@ -119,5 +116,9 @@
       radial-gradient(50.39px at 50% calc(100% + 43.75px),#0000 99%,#000 101%) 50% calc(100% - 25px)/100px calc(51% - 25px) repeat-x;
       -webkit-mask: var(--mask);
       mask: var(--mask);
-  
-  }
+   */
+}
+
+.wrapper {
+  margin-top: -45px;
+}

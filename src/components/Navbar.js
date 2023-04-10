@@ -38,10 +38,10 @@ const Navbar = () => {
               <Link to="#faq">FAQ</Link>
             </li>
             <li>
-              <Link to="#faq">NEET</Link>
+              <Link to="#neet">NEET</Link>
             </li>
             <li>
-              <Link to="#contact">Contact</Link>
+              <Link to="#callus">Contact</Link>
             </li>
           </ul>
         </Router>

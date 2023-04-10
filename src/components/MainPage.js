@@ -4,10 +4,11 @@ import neet from '../images/NEET.gif';
 import freeliveclass from '../images/Free Live class.gif';
 import rightTick from '../images/right-tick.jpg';
 import weeklyImage from '../images/weekly-image.png';
+import weeklyimage from '../images/main-page-list.gif';
 export default function MainPage(props) {
   return (
     <>
-      <div className="main-page" id='program'>
+      <div className="main-page" id="program">
         <div className="left-container">
           {props.content.length <= 0 && (
             <div>
@@ -18,20 +19,24 @@ export default function MainPage(props) {
               <h1>
                 with <span id="name">Dr.Khan</span>
               </h1>
-              <h3>
+              {/* <h3>
                 <span style={{ color: 'orange' }}>Two Year</span> Classroom
-                teachings for{' '}
+                teachings for
                 <span style={{ color: 'orange' }}>
                   NEET / AIIMS & <br />
                   JIPMER
-                </span>{' '}
+                </span>
                 along with <span style={{ color: 'orange' }}>
                   11th
                 </span> and <span style={{ color: 'orange' }}>12th</span> Board
                 syllabus
-              </h3>
+              </h3> */}
 
-              <h3 style={{ marginTop: '110px' }}>
+              <div className="weekly-img">
+                {' '}
+                <img src={weeklyimage} alt="weekly-image" />
+              </div>
+              {/* <h3 style={{ marginTop: '110px' }}>
                 <img src={rightTick} style={{ height: '20px' }} />{' '}
                 <span style={{ fontSize: '20px' }}>
                   Five days a week Classes
@@ -44,7 +49,8 @@ export default function MainPage(props) {
                 <span style={{ fontSize: '20px' }}>
                   1+ hr Physics , Chemistry and Biology
                 </span>
-              </h3>
+              </h3> */}
+              
             </div>
           )}
           {props.content.length > 0 && (
