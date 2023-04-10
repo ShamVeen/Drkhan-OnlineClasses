@@ -1,33 +1,3 @@
-// import React from "react";
-// import "../Css/AboutUs.css";
-// import  aboutData  from "../aboutData";
-
-// const AboutUs = () => {
-//   return (
-//     <div className="about-container">
-//       {/* {aboutData.map((person, index) => {
-//         return (
-//           <div className="about-card" key={index}>
-//             <div className="about-content">
-//               <div className="about-img-container">
-//                 <img src={person.imageUrl} alt={person.name} className="about-img" />
-//               </div>
-//               <div className="about-text-container">
-//                 <h2 className="about-name">{person.name}</h2>
-//                 <h4 className="about-qualification">{person.qualification}</h4>
-//                 <p className="about-description">{person.description}</p>
-//               </div>
-//             </div>
-//           </div>
-//         );
-//       })} */}
-
-//     </div>
-//   );
-// };
-
-// export default AboutUs;
-
 import React from 'react';
 // import harsh from '../images/2.png';
 import khan from '../images/3.png';

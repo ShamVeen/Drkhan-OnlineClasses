@@ -60,6 +60,10 @@
   width: 400px;
   height: auto;
 }
+.about-one Card{
+  margin-left: 20px;
+
+}
 .about-two img {
   width: 400px;
   height: auto;
@@ -112,16 +116,16 @@
 .about-drkhan span {
   font-size: 20px;
   /* font-family: cursive; */
-  color: rgb(26, 114, 114);
+  /* color: rgb(26, 114, 114); */
 }
 .about-harsh span {
   font-size: 20px;
-  font-family: cursive;
-  color: rgb(26, 114, 114);
+  /* font-family: cursive; */
+  /* color: rgb(26, 114, 114); */
 }
 .about-naureen span {
   font-size: 20px;
-  font-family: cursive;
+  /* font-family: cursive; */
   color: rgb(26, 114, 114);
 }
 @media screen and (max-width: 768px) {
