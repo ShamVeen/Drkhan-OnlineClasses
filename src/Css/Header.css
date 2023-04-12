@@ -36,13 +36,18 @@ a {
 
 @media(max-width: 574px){
   .Header{
-    width: 100%;
+    /* width: 100%; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+.Header a{
+  font-size: 8px;
 }
 
 .Header p{
-  display: content;
+  font-size: 8px;
+  display: flex;
+  /* position: relative; */
 }
 }
 
