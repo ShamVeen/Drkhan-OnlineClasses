@@ -75,6 +75,7 @@
 
 .main-page {
   display: flex;
+  position: relative;
   align-items: center;
   justify-content: space-around;
   gap: 1rem;
@@ -112,11 +113,23 @@
   }
   .main-page {
     display: inline-block;
-    gap: 1rem;
-    margin-top: 3rem;
-    margin-left: 4rem;
-  }
 
+    height: fit-content;
+    margin-top: -4rem;
+    margin-left: 2rem;
+  }
+  .left-container {
+    margin-top: -5rem;
+  }
+  .left-container .weekly-img img {
+    margin-top: 10px;
+    height: 250px;
+  }
+  .right-container img {
+    width: 250px;
+    height: 150px;
+  }
+  
   .Header p {
     display: content;
   }
@@ -216,7 +229,7 @@
   text-transform: capitalize;
 }
 
-@media(max-width: 767px){
+@media (max-width: 767px) {
   .Different {
     display: inline-block;
     /* margin-bottom: 2rem; */
@@ -240,6 +253,7 @@
     background: rgb(255, 255, 252);
     border-radius: 5%;
     margin-bottom: 7rem;
+    margin-top: 40px;
     text-align: center;
     padding: 5px;
     text-transform: capitalize;
@@ -253,7 +267,6 @@
     width: 500px;
     object-fit: cover;
   }
-  
 }
 
 .upper-container {

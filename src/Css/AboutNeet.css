@@ -39,9 +39,13 @@
     margin-top: 280px;
     /* margin-left: -1rem; */
    }
+   .about-neet-title{
+    text-align: center;
+   }
    .about-neet-dropdown{
-    width:fit-content;
+    /* width:fit-content; */
     /* margin-left: -0.1rem; */
+    display: inline;
    }
    .neet-1{
     display: inline-table;
