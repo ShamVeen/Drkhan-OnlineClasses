@@ -1,3 +1,19 @@
 .pride{
     margin-top: -14rem;
 }
+.pride h1{
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+.pride-img img{
+    width: 75rem;
+    height: 500px;
+    border-radius: 20px;
+}
+
+@media (max-width: 574px) {
+    .pride-img img{
+        width:25rem;
+        height: 160px;
+    } 
+}

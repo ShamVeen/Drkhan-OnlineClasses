@@ -65,7 +65,7 @@ function App() {
       <AboutUs />
 
       <Registration />
-      <ContactUs/>
+      {/* <ContactUs/> */}
 
       <Unique />
 

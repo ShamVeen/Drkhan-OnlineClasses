@@ -107,12 +107,19 @@ const FaqArea = () => {
               </span>
               . This is to ensure students consistency in class and take class
               seriously. Kids should not make a habit of watching recorded
-              session. <br />
-              <b>Q- What are the benefits of Dr.KhanOnline Classes?</b> <br />•
-              Dr.KhanOnline Classes brings the learning at the students'
-              desktop, so the student can get the unmatched guidance from
-              IITians and Doctors in secure and comfortable environment of his
-              home. It increases his confidence level and concentration.
+              session.
+            </Accordion.Body>
+          </Accordion.Item>
+
+          <Accordion.Item eventKey="7">
+            <Accordion.Header>
+              What are the benefits of Dr.KhanOnline Classes?{' '}
+            </Accordion.Header>
+            <Accordion.Body>
+            • Dr.KhanOnline Classes brings the learning at the
+              students' desktop, so the student can get the unmatched guidance
+              from IITians and Doctors in secure and comfortable environment of
+              his home. It increases his confidence level and concentration.
               <span style={{ color: 'orange' }}> Mental Peace to parents.</span>
               <br /> • Through One to one coaching the students get proper
               attention from the faculty. The easy interaction with the mentor
@@ -156,7 +163,7 @@ const FaqArea = () => {
               and asked for explanation.
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey="7">
+          <Accordion.Item eventKey="8">
             <Accordion.Header>
               What will be the mode of payment for FEE?
             </Accordion.Header>

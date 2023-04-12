@@ -8,8 +8,8 @@ import '../Css/AboutUs.css';
 import Card from './Card';
 function AboutUs(props) {
   return (
-    <div>
-      <div className="about-container" id="about">
+    <div id='about'>
+      <div className="about-container">
         {/* <h2 style={{ fontSize: '45px', color: 'darkgreen' }}>About Us</h2> */}
         {/* <div className="aboutus">
           <p>
@@ -36,15 +36,14 @@ function AboutUs(props) {
           {' '}
           <div className="about-drkhan">
             <p>
-              Dr. Khan has been teaching Zoology and Botany since 2015 producing
-              good ranks <br />
-              in NEET examination. It was going well... then the Corona outbreak
-              provide opportunity
-              <br /> of teaching online in a multinational EdTech to the
-              Overseas students. Learned to make
-              <br /> animation, PPTs, new teaching module and become a "Pro" in
-              the online teaching <br />
-              and exam analysis.{' '}
+              Dr. Khan has been teaching Zoology and Botany since 2015 producing<br/>
+              good ranks
+              in NEET examination. It was going well... <b>then the <br/>Corona outbreak
+              PROVIDED opportunity
+               of teaching online in a multinational<br/> EdTech to the
+              Overseas students.</b> Learned to make animation, PPTs, new <br/>teaching module and become a "Pro" in
+              the online teaching
+              and exam analysis.{' '}<br/>
              <b><span>
                 The start of online teaching journey was a huge success
                 academically. <br />
@@ -52,9 +51,9 @@ function AboutUs(props) {
                 <span style={{ color: 'black', fontSize: '22px' }}>
                   Dr. Khan
                 </span>{' '}
-                is bouncing back with a team of top teachers who have produced
+                is bouncing back with a team of top teachers who have<br/> produced
                 ranks
-                <br /> below 1000 in NEET and JEE examinations
+                 below 1000 in NEET and JEE examinations
               </span></b> 
             </p>
           </div>
@@ -106,10 +105,10 @@ function AboutUs(props) {
               <span>
                 With Gold medals in graduation and Post-graduation
                 <br /> she started her teaching career along Ph.D. curriculum.
-                <br /> She used her live practical experience to developed{' '}
+                <br /><b> She used her live practical experience to developed{' '}
                 <br />
                 Unique method to teach Concepts in the most simple <br />
-                way.{' '}
+                way.</b>{' '}
                 <b>
                   Her solution-oriented classroom teaching <br />
                   and management style is very famous among students.

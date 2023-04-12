@@ -14,7 +14,7 @@ function StudentThought() {
   return (
     <div className="student-thought">
       <Container>
-        <h2 style={{ paddingTop: '40px', fontSize: '2.3rem' }}>
+        <h2>
           Our Student Thoughts
         </h2>
         <div className="student-video">
@@ -23,12 +23,12 @@ src="https://www.youtube.com/shorts/embed/wYSLdJsxArI?autoplay">
 </iframe>   */}
 
           <div>
-            <ReactPlayer url={youtubeUrl} className="video-1" />
+            <div className='wahib-talk'><ReactPlayer url={youtubeUrl} className="video-1" /></div>
             <p>Dr. Wahib Khan</p>
           </div>
 
           <div>
-            <ReactPlayer url={youtubeUrl2} className="video-2" />
+          <div className="nashrah-talk"> <ReactPlayer url={youtubeUrl2} className="video-2" /></div>
             <p>Dr. Nashrah Rehman</p>
           </div>
         </div>

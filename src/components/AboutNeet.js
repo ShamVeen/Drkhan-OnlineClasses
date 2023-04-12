@@ -46,7 +46,8 @@ function AboutNeet() {
               <br /> This will help you prepare for the exam with proper
               planning and organisation
               <br />
-              <div style={{ marginTop: '20px' }}>
+              <div className="neet-2" style={{ marginTop: '20px' }}>
+              
                 <img src={neetTable2} style={{ height: '200px' }} />
 
                 <img src={neetTable3} style={{ height: '200px' }} />

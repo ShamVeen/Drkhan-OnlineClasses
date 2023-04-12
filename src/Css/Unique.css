@@ -1,15 +1,16 @@
-/* .Unique-main {
-  margin-top: 1rem;
-} */
+.heading{
+  margin-top: 6rem;
+}
 .heading h3 {
   color: rgb(26, 114, 114);
 
   font-size: 2.4rem;
   font-weight: 600;
+  margin-top: -150px;
 }
 .unique {
   text-align: center;
-  margin-top: -5rem;
+  margin: 6rem;
   margin-bottom: 2rem;
   font-size: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -24,6 +25,37 @@
     margin-left: 0 20rem 0 20rem;
 } */
 
+
+@media (max-width: 574px) {
+  
+  .heading h3 {
+    color: rgb(26, 114, 114);
+  display: flex;
+  justify-content: flex-start;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .unique {
+    text-align:justify;
+    margin-top: -5rem;
+    margin-bottom: 2rem;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .unique p {
+    font-family: cursive;
+  }
+  .wavy {
+    /* mask created with 
+      https://css-generators.com/wavy-shapes/ */
+    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 60px;
+    background-color: rgb(63, 161, 114)  ;
+    border-radius: 30px;}
+}
 .wrapper {
   max-width: 60rem;
   margin-inline: auto;
@@ -121,4 +153,43 @@ section {
 
 .wrapper {
   margin-top: -45px;
+}
+
+
+
+
+.column {
+  /* text-align: center; */
+  width: 100%;
+  padding: 10px 10px 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 20px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.unique-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  /* background-color: #f1f1f1; */
+  background-color: rgb(69, 176, 124)  ;
+  border-radius: 30px;
+
 }

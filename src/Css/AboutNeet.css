@@ -18,21 +18,33 @@
 .neet-1{
     display: flex;
 }
+/* .neet-2{
+    display: flex;
+} */
 @media(max-width: 767px){
     /* .about-neet-dropdown{
       width: 100%;
       margin-bottom: 30px;
   } */
+  .neet-1{
+    display: inline-block;
+  }
+  .neet-2 img{
+    /* display: inline-block; */
+    width: 100%;
+  }
   }
   @media(max-width: 574px){
    .about-neet{
     margin-top: 280px;
+    /* margin-left: -1rem; */
    }
    .about-neet-dropdown{
-    width: min-content;
+    width:fit-content;
+    /* margin-left: -0.1rem; */
    }
    .neet-1{
-    display: inline-block;
+    display: inline-table;
    }
   }
   

@@ -3,8 +3,10 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
 import { BsWhatsapp } from 'react-icons/bs';
 import { AiOutlineQuestionCircle } from 'react-icons/ai';
-import {IoMdCall} from 'react-icons/io';
-import {AiFillYoutube} from 'react-icons/ai';
+import { IoMdCall } from 'react-icons/io';
+import { AiFillYoutube } from 'react-icons/ai';
+// import {BsWhatsapp} from 'react-icons/bs';
+import { AiOutlineInstagram } from 'react-icons/ai';
 
 export default function Footer() {
   return (
@@ -39,8 +41,11 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li>
-                <Link to="#callus"><IoMdCall/>call us</Link>
-              </li>
+                  <Link to="#callus">
+                    <IoMdCall />
+                    call us
+                  </Link>
+                </li>
                 <li>
                   {/* <Link to="#header">chat with us</Link> */}
                   <a
@@ -80,9 +85,9 @@ export default function Footer() {
             <div class="footer-col">
               <h4>follow us</h4>
               <div className="social-links">
-                <a href="https://www.facebook.com/profile.php?id=100091682525827">
+                {/* <a href="https://www.facebook.com/profile.php?id=100091682525827">
                   <i className="fab fa-facebook-f"></i>
-                </a>
+                </a> */}
                 {/* <a href="#">
                 <i className="fab fa-twitter"></i>
               </a> */}
@@ -91,16 +96,26 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   href="https://wa.me/916265526339"
                 >
-                  <i className="fab fa-whatsapp"></i>
+                  {/* <i className="fab fa-whatsapp"></i> */}
+                  <BsWhatsapp />
                 </a>
-                <a href="https://www.instagram.com/dr_khan_classes/">
-                  <i className="fab fa-instagram"></i>
+                <a
+                  target="blank"
+                  rel="noopener noreferrer"
+                  href="https://www.instagram.com/dr_khan_classes/"
+                >
+                  {/* <i className="fab fa-instagram"></i> */}
+                  <AiOutlineInstagram />
                 </a>
-                <a href="https://www.linkedin.com/in/drkhan-classes-345753271/">
+                {/* <a href="https://www.linkedin.com/in/drkhan-classes-345753271/">
                   <i className="fab fa-linkedin-in"></i>
-                </a>
-                <a href="https://www.youtube.com/channel/UCHB5HJg45yK5O61Je-F3dwA">
-                  <AiFillYoutube/>
+                </a> */}
+                <a
+                  target="blank"
+                  rel="noopener noreferrer"
+                  href="https://www.youtube.com/channel/UCHB5HJg45yK5O61Je-F3dwA"
+                >
+                  <AiFillYoutube />
                 </a>
               </div>
             </div>
