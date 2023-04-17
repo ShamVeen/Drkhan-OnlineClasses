@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../Css/Testimonials.css";
 import data from "../data";
+import {MdKeyboardArrowLeft, MdKeyboardArrowRight} from 'react-icons/md';
 
 const Slider = () => {
   const [people] = useState(data);
@@ -52,10 +53,9 @@ const Slider = () => {
           );
         })}
         <button className="prev" onClick={() => setIndex(index - 1)}>
-          +
-        </button>
+        <MdKeyboardArrowLeft/>        </button>
         <button className="next" onClick={() => setIndex(index + 1)}>
-          -
+          <MdKeyboardArrowRight/>
         </button>
       </div>
     </section>

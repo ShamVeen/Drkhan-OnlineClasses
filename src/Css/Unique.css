@@ -1,4 +1,4 @@
-.heading{
+.heading {
   margin-top: 6rem;
 }
 .heading h3 {
@@ -9,15 +9,14 @@
   margin-top: -150px;
 }
 .unique {
-  text-align: center;
+  text-align: left;
   margin: 6rem;
   margin-bottom: 2rem;
   font-size: 20px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.unique p {
+/* .unique p {
   font-family: cursive;
-}
+} */
 /* .unique-one{
     background-color: rgb(148, 199, 148);
     height: 140px;
@@ -25,32 +24,30 @@
     margin-left: 0 20rem 0 20rem;
 } */
 
-
 @media (max-width: 574px) {
- 
   .heading h3 {
     color: rgb(26, 114, 114);
-  display: flex;
-  justify-content:center;
-    font-size: 1.5rem;
-    font-weight: 600;
 
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-left: -80px;
   }
 
   .unique {
-    text-align:justify;
+    /* text-align:left; */
     /* margin-top: -5rem; */
 
     margin-bottom: 2rem;
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   .unique-card {
     /* margin-top: 80px; */
+    margin-left: -110px;
+    min-width: 280px;
+    /* height: 200px; */
+    text-size-adjust: auto;
+    text-align: left;
   }
-  .unique p {
-    font-family: cursive;
-  }
+
   .wavy {
     /* mask created with 
       https://css-generators.com/wavy-shapes/ */
@@ -58,8 +55,9 @@
     margin-left: 10px;
     margin-right: 10px;
     height: 60px;
-    background-color: rgb(63, 161, 114)  ;
-    border-radius: 30px;}
+    background-color: rgb(56, 150, 105);
+    border-radius: 30px;
+  }
 }
 .wrapper {
   max-width: 60rem;
@@ -98,38 +96,6 @@ section {
   transform: skewY(var(--skew-angle));
 }
 
-.spikes {
-  --spike-width: 50px;
-  --spike-height: 10px;
-  --spike-color: var(--body-bg);
-
-  position: relative;
-  color: black;
-  background: linear-gradient(to right, #fdc830, #f37335);
-}
-
-.spikes::before,
-.spikes::after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: var(--spike-height);
-  background: var(--spike-color);
-  -webkit-mask-image: url('../Assests/triangle.svg');
-  -webkit-mask-size: var(--spike-width) var(--spike-height);
-  /* -webkit-mask-repeat: repeat-x; */
-  mask-image: url('../Assests/triangle.svg');
-  mask-size: var(--spike-width) var(--spike-height);
-  /* mask-repeat: repeat-x; */
-}
-
-.spikes::before {
-  top: 0;
-}
-.spikes::after {
-  bottom: 0;
-  transform: rotate(0.5turn);
-}
 
 .wavy {
   /* mask created with 
@@ -138,7 +104,7 @@ section {
   margin-left: 180px;
   margin-right: 180px;
   height: 60px;
-  background-color: rgb(63, 161, 114)  ;
+  background-color: rgb(63, 161, 114);
   border-radius: 30px;
   /* background: 
       linear-gradient(
@@ -160,9 +126,6 @@ section {
   margin-top: -45px;
 }
 
-
-
-
 .column {
   /* text-align: center; */
   width: 100%;
@@ -170,11 +133,13 @@ section {
 }
 
 /* Remove extra left and right margins, due to padding */
-.row {margin: 20px;}
+.row {
+  margin: 20px;
+}
 
 /* Clear floats after the columns */
 .row:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
@@ -192,9 +157,12 @@ section {
 .unique-card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
-  text-align: center;
+  text-align: left;
   /* background-color: #f1f1f1; */
-  background-color: rgb(69, 176, 124)  ;
-  border-radius: 30px;
+  background-color: rgb(69, 176, 124);
+  border-radius: 10px;
+}
 
+.unique-card h4{
+  font-size: 17px;
 }

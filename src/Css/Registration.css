@@ -18,7 +18,7 @@ align-items: center;
 .register-number {
   /* background-color: rgb(240, 240, 121); */
   margin: 3rem;
-  margin-top: -5rem;
+  margin-top: -10rem;
   /* margin-left: 15rem; */
   /* margin-right: 10rem; */
   min-height: 200px;
@@ -28,10 +28,11 @@ align-items: center;
 }
 
 .register-number p {
-  background-color: rgb(230, 238, 77);
+  background: rgb(230, 238, 77);
   /* height: 10rem; */
   /* width: 100%; */
   /* border-radius: 10px 80px 10px 80px; */
+   font-weight: 600 
 }
 
 .register-container {
@@ -55,24 +56,22 @@ align-items: center;
 
 
 @media(max-width: 767px){
+   /* .registration{
+    height: 100vh;
+   } */
     .register-number p{
-      /* margin-bottom: 30px; */
-      /* display:inline-flex; */
-      /* background-color: green; */
-      width: 100%;
-
-  }
-  }
-  @media(max-width: 574px){
-    .register-number p{
-      width: 100%;
+      width: 90%;
+      font-size: 10px;
+      display: grid;
   }
   .register img{
     margin-top: 15rem;
+    height: 200px;
+    width: 200px;
   }
-  .register-form{
-    width: 80%;
-    margin-left: 60px;
+  .register-container{
+    width: 70%;
+    margin-left: 10px;
   }
   .register-number {
     margin-top: 9rem;

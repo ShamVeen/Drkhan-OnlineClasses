@@ -12,8 +12,12 @@
 }
 
 @media (max-width: 574px) {
+    .pride h1{
+        font-size: 1.9rem;
+    }
     .pride-img img{
-        width:25rem;
-        height: 160px;
+        width:17rem;
+        height: 150px;
+        margin-left: -70px;
     } 
 }

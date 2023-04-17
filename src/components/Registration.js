@@ -6,8 +6,8 @@ import {BsWhatsapp} from 'react-icons/bs'
 
 function Registration() {
   return (
-    <div>
-      <div className="register">
+    <div className='registration'>
+      <div className="register" id="registration">
         <img src={freeclass} />
       </div>
 {/* 
@@ -28,7 +28,7 @@ function Registration() {
       <div class="register-container"> 
   <iframe class="responsive-iframe" src="https://docs.google.com/forms/d/e/1FAIpQLSfrXWpioMvcbBgGrkoOZSxWlAw3q7nzzUoe_3Pe-b-UIQVLqQ/viewform?embedded=true"></iframe>
 </div>
-<ContactUs/>
+{/* <ContactUs/> */}
     </div>
   );
 }

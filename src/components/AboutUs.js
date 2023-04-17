@@ -39,7 +39,7 @@ function AboutUs(props) {
               Dr. Khan has been teaching Zoology and Botany since 2015 producing<br/>
               good ranks
               in NEET examination. It was going well... <b>then the <br/>Corona outbreak
-              PROVIDED opportunity
+              provided opportunity
                of teaching online in a multinational<br/> EdTech to the
               Overseas students.</b> Learned to make animation, PPTs, new <br/>teaching module and become a "Pro" in
               the online teaching

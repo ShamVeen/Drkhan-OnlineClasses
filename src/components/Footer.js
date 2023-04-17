@@ -36,14 +36,14 @@ export default function Footer() {
               <ul>
                 <li>
                   <Link to="#faq">
-                    <AiOutlineQuestionCircle />
+                    {/* <AiOutlineQuestionCircle /> */}
                     FAQ
                   </Link>
                 </li>
                 <li>
                   <Link to="#callus">
-                    <IoMdCall />
                     call us
+                    {/* <IoMdCall /> */}
                   </Link>
                 </li>
                 <li>
@@ -53,8 +53,8 @@ export default function Footer() {
                     rel="noopener noreferrer"
                     href="https://wa.me/916265526339"
                   >
-                    <BsWhatsapp />
                     Chat with us
+                    {/* <BsWhatsapp /> */}
                   </a>
                 </li>
                 {/* <li>
@@ -69,7 +69,7 @@ export default function Footer() {
               <h4>our offers</h4>
               <ul>
                 <li>
-                  <a href="#">Five Free class</a>
+                  <a href="#registration">Five Free class</a>
                 </li>
                 <li>
                   <a href="#">classroom Notes</a>

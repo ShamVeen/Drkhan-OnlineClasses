@@ -10,6 +10,8 @@ function Unique(props) {
   return (
     <>
       <div className="Unique-main">
+      {/* <ContactUs/> */}
+      <ContactUs/>
 
         <div className="heading">
         {/* <ContactUs /> */}
@@ -21,7 +23,6 @@ function Unique(props) {
           {/* <p className="primary-heading">{props.primary}</p>
             <h1>{props.secondary}</h1> */}
         </div>
-
 <div className='unique'>
 <div className="row">
           <div className="column">

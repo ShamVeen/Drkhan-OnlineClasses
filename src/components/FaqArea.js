@@ -10,7 +10,21 @@ const FaqArea = () => {
       </div>
       <div>
         <Accordion defaultActiveKey="0">
-          <Accordion.Item eventKey="0">
+        
+        <Accordion.Item eventKey="0">
+            <Accordion.Header>
+              What will be the mode of payment for FEE?
+            </Accordion.Header>
+            <Accordion.Body>
+              <span style={{ color: 'orange' }}>
+                Fees will be on Monthly basis. So YOU have full Power. No traps.
+                No Strings Attached
+              </span>
+              .<br /> Fees can be sent via UPI or directly to account of Dr.
+              Khan.
+            </Accordion.Body>
+          </Accordion.Item>
+          <Accordion.Item eventKey="1">
             <Accordion.Header>
               For Which Entrance examinations Dr. KHAN Online Classes is
               preparing students?
@@ -26,7 +40,7 @@ const FaqArea = () => {
               Indian Universities for other Graduation courses of science).
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey="1">
+          <Accordion.Item eventKey="2">
             <Accordion.Header>
               How will the Online Classes be run? Will the student be able to
               interact with the teacher?
@@ -37,15 +51,15 @@ const FaqArea = () => {
               teaching and understanding. Student can interact with teacher via
               headphone/earphone or chat on the online classroom platform. This
               is possible Due to very small batch size of{' '}
-              <span style={{ color: 'red' }}>NOT MORE THAN 10 STUDENT</span> in
+              <span style={{ color: 'orange' }}>NOT MORE THAN 10 STUDENT</span> in
               a class. Dr. Khan classes brings the learning at the students
               desktop at the{' '}
-              <span style={{ color: 'red' }}>CONVENIENCE AND SECURITY</span> of
+              <span style={{ color: 'orange' }}>CONVENIENCE AND SECURITY</span> of
               your house. Dr. KHAN Online Classes ensures the student can get
               the unmatched guidance from IITians/Doctors/Ph.Ds to each student
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey="2">
+          <Accordion.Item eventKey="3">
             <Accordion.Header>
               What will be the timings of the Online Classes?
             </Accordion.Header>
@@ -55,7 +69,7 @@ const FaqArea = () => {
               timing options.
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey="3">
+          <Accordion.Item eventKey="4">
             <Accordion.Header>
               What are the requirements to take Online Classes without any
               problem?
@@ -68,7 +82,7 @@ const FaqArea = () => {
               (optional)
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey="4">
+          <Accordion.Item eventKey="5">
             <Accordion.Header>
               What type of Study Material will be given to students?
             </Accordion.Header>
@@ -79,7 +93,7 @@ const FaqArea = () => {
               students on Telegram or WhatsApp (mainly).
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey="5">
+          <Accordion.Item eventKey="6">
             <Accordion.Header>
               How to arrange a Free Class with us?
             </Accordion.Header>
@@ -96,7 +110,7 @@ const FaqArea = () => {
               as a mentor and counselor along with being a teacher.
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey="6">
+          <Accordion.Item eventKey="7">
             <Accordion.Header>
               Are the sessions recorded? How can I access to the recordings?
             </Accordion.Header>
@@ -111,7 +125,7 @@ const FaqArea = () => {
             </Accordion.Body>
           </Accordion.Item>
 
-          <Accordion.Item eventKey="7">
+          <Accordion.Item eventKey="8">
             <Accordion.Header>
               What are the benefits of Dr.KhanOnline Classes?{' '}
             </Accordion.Header>
@@ -161,19 +175,6 @@ const FaqArea = () => {
               <br /> o Dr.KhanOnline Classes informs parents about 3 consecutive
               class bunks and any single test bunk. The parents are contacted
               and asked for explanation.
-            </Accordion.Body>
-          </Accordion.Item>
-          <Accordion.Item eventKey="8">
-            <Accordion.Header>
-              What will be the mode of payment for FEE?
-            </Accordion.Header>
-            <Accordion.Body>
-              <span style={{ color: 'orange' }}>
-                Fees will be on Monthly basis. So YOU have full Power. No traps.
-                No Strings Attached
-              </span>
-              .<br /> Fees can be sent via UPI or directly to account of Dr.
-              Khan.
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>

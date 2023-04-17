@@ -12,7 +12,7 @@ export default function MainPage(props) {
         <div className="left-container">
           {props.content.length <= 0 && (
             <div>
-              <h2>
+              <h2 className='left-head'>
                 Prepare for <span className="bg-light">NEET</span> &{' '}
                 <span className="bg-light">CUET</span>
               </h2>
@@ -65,7 +65,7 @@ export default function MainPage(props) {
         </div>
         {props.content.length <= 0 && (
           <div className="right-container">
-            <img src={neet} alt="study" />
+            <img src={neet} alt="study" className="neet-img"/>
             {/* <span>
               M.SC., SRF, PH.D. (LIFESCIENCE) AIPMT, <br/>GATE AND NET QUALIFIED 7
               YEARS TEACHING EXPERIENCE
