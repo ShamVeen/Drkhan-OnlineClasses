@@ -65,7 +65,7 @@ button {
   .logo {
     display: flex;
     position: absolute;
-    height: 100px;
+    height: 90px;
     top: 5px;
     left: 10px;
   }
@@ -91,9 +91,9 @@ button {
     text-align: center;
   }
   .mobile-menu-icon {
-    position: absolute;
+    position:absolute;
     display: block;
-    right: 100px;
+    right: 10px;
   }
   .hero h1 {
     font-size: 50px;

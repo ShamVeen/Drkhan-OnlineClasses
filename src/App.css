@@ -131,6 +131,9 @@ body {
     width: 60%;
     height: 300px;
   }
+  .main-page .drkhan{
+    font-size: 1.rem;
+  }
 }
 
 @media (max-width: 574px) {
@@ -299,7 +302,7 @@ body {
     margin-right: 20px;
   }
   .Different .Content p{
-    font-size: 12px;
+    font-size: 10px;
   }
   .Content .first-content{
     margin-left: -70px;
@@ -325,6 +328,14 @@ body {
     display: inline-block;
     margin-top: 30px;
     margin-left: 80px;
+  }
+
+  .Different .Content{
+    text-align: left;
+  }
+  .Different .Content p{
+    font-size: 13px;
+    text-align: left;
   }
 
   /* .card {

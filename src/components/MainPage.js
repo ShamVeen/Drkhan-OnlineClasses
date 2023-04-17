@@ -16,7 +16,7 @@ export default function MainPage(props) {
                 Prepare for <span className="bg-light">NEET</span> &{' '}
                 <span className="bg-light">CUET</span>
               </h2>
-              <h1>
+              <h1 className='drkhan'>
                 with <span id="name">Dr.Khan</span>
               </h1>
               {/* <h3>

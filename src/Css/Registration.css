@@ -70,13 +70,26 @@ align-items: center;
     width: 200px;
   }
   .register-container{
-    width: 70%;
+    width: 95%;
+    height: 300px;
     margin-left: 10px;
   }
+  .responsive-iframe {
+    position:absolute;
+    /* top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0; */
+    /* width: 100%; */
+    height: 200%;
+    border: none;
+  }
+  
+  
   .register-number {
     margin-top: 9rem;
     /* margin-right: 10px; */
     padding-left: 40px;
-    margin-left: -40px;
+    margin-left: -7px;
   }
   }
