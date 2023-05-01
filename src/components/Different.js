@@ -1,6 +1,4 @@
 import stdStudy from '../images/girl-study.jpg';
-import Heading from './Heading';
-import { AiOutlineDoubleRight } from 'react-icons/ai';
 import realtime from '../images/Realtime.gif';
 import Happy from '../images/Happy.gif';
 import bluepin from '../images/blue-icon.png';
@@ -15,17 +13,17 @@ export default function Different() {
           <ul className="first-content">
             <li>
               <p>
-                <img src={bluepin} />
-                Our Live class program is a perfect mix of new age learning
-                methods, conventional teaching and practice methods, to prepare
+                <img src={bluepin} alt=""/>
+                Our Live class program is a perfect<br/> mix of new age learning
+                methods, conventional<br/> teaching and practice methods, to prepare<br/>
                 Pre-Medical students.
               </p>
             </li>
             <li>
               <p>
-                <img src={bluepin}  />{' '}
-                TargetBased live Classes (NOT TIME BOUND) Live classes are
-                Recorded for UNLIMITED revision
+                <img src={bluepin}  alt=""/>{' '}
+                TargetBased live Classes<br/> (NOT TIME BOUND) Live classes are
+               <br/> Recorded for UNLIMITED revision
               </p>
             </li>
             {/* <li>
@@ -46,14 +44,14 @@ export default function Different() {
           {/* <ul>
             <li> */}
           <p>
-            <img src={bluepin}  />{' '}
+            <img src={bluepin} alt="" />{' '}
             Media Rich engaging content.
             <br />
-            <img src={bluepin}  />{' '}
+            <img src={bluepin}  alt=""/>{' '}
             Batch size no more then 10 students.
             <br />
-            <img src={bluepin}  /> REAL
-            TIME doubt clearance and 24x7 availiblity on WhatsApp.
+            <img src={bluepin} alt="" /> REAL
+            TIME doubt clearance and 24x7 availiblity<br/> on WhatsApp.
           </p>
           {/* </li>
           </ul> */}
@@ -69,11 +67,11 @@ export default function Different() {
           <ul className='parent-talk'>
             <li>
               <p>
-                <img src={bluepin}  />{' '}
-                PARENTS can talk with teachers on a weekly basis.<br/>
-                <img src={bluepin}  /> Daily Practice
-                Papers (DPP), Previous year paper (PYP), Higher order thinking
-                (HOT) questions provided for an excellent learning experience
+                <img src={bluepin}  alt=''/>{' '}
+                PARENTS can talk with teachers on a weekly<br/> basis.<br/>
+                <img src={bluepin}  alt=''/> Daily Practice
+                Papers (DPP), Previous year <br/>paper (PYP), Higher order thinking
+                (HOT) questions<br/> provided for an excellent learning experience
               </p>
             </li>
           </ul>

@@ -8,10 +8,9 @@ const FaqArea = () => {
       <div className="faq-title">
         <h2>FAQs</h2>
       </div>
-      <div>
+      <div className='faq-body'>
         <Accordion defaultActiveKey="0">
-        
-        <Accordion.Item eventKey="0">
+          <Accordion.Item eventKey="0">
             <Accordion.Header>
               What will be the mode of payment for FEE?
             </Accordion.Header>
@@ -51,11 +50,11 @@ const FaqArea = () => {
               teaching and understanding. Student can interact with teacher via
               headphone/earphone or chat on the online classroom platform. This
               is possible Due to very small batch size of{' '}
-              <span style={{ color: 'orange' }}>NOT MORE THAN 10 STUDENT</span> in
-              a class. Dr. Khan classes brings the learning at the students
+              <span style={{ color: 'orange' }}>NOT MORE THAN 10 STUDENT</span>{' '}
+              in a class. Dr. Khan classes brings the learning at the students
               desktop at the{' '}
-              <span style={{ color: 'orange' }}>CONVENIENCE AND SECURITY</span> of
-              your house. Dr. KHAN Online Classes ensures the student can get
+              <span style={{ color: 'orange' }}>CONVENIENCE AND SECURITY</span>{' '}
+              of your house. Dr. KHAN Online Classes ensures the student can get
               the unmatched guidance from IITians/Doctors/Ph.Ds to each student
             </Accordion.Body>
           </Accordion.Item>
@@ -130,10 +129,10 @@ const FaqArea = () => {
               What are the benefits of Dr.KhanOnline Classes?{' '}
             </Accordion.Header>
             <Accordion.Body>
-            • Dr.KhanOnline Classes brings the learning at the
-              students' desktop, so the student can get the unmatched guidance
-              from IITians and Doctors in secure and comfortable environment of
-              his home. It increases his confidence level and concentration.
+              • Dr.KhanOnline Classes brings the learning at the students'
+              desktop, so the student can get the unmatched guidance from
+              IITians and Doctors in secure and comfortable environment of his
+              home. It increases his confidence level and concentration.
               <span style={{ color: 'orange' }}> Mental Peace to parents.</span>
               <br /> • Through One to one coaching the students get proper
               attention from the faculty. The easy interaction with the mentor

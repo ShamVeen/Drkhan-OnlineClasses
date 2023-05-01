@@ -54,3 +54,22 @@
     display: inline-table;
   }
 }
+
+@media (max-width: 414px) {
+  .about-neet-title h2{
+    display: inline-block;
+    align-items: center;
+
+  }
+.about-neet .about-neet-dropdown{
+  display:contents;
+  justify-content: center;
+}
+.neet-1 {
+  font-size: 12px;
+}
+.neet-1 img {
+  /* display: inline-block; */
+  width: 100%;
+}
+}

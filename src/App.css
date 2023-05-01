@@ -1,9 +1,9 @@
-/* * {
+* {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 	font-family: "Titillium Web", sans-serif;
-} */
+}
 /* * {
   scroll-behavior: smooth;
   margin: 0px !important;
@@ -15,8 +15,8 @@
 body {
   /* width: 100%;
   height: 100%; */
-  margin: 0px !important;
-  padding: 0px !important;
+  /* margin: 0px !important;
+  padding: 0px !important; */
   /* font-family: 'Montserrat', sans-serif; */
   /* position: absolute; */
     overflow-x: hidden;
@@ -351,7 +351,7 @@ body {
   } */
 
   .Different {
-    display: inline-block;
+    display:grid;
     /* margin-bottom: 2rem; */
   }
   .Different img {
@@ -359,6 +359,55 @@ body {
     object-fit: cover;
   }
 }
+
+
+
+@media (max-width: 414px) {
+  .teachers {
+    display: grid;
+    margin-top: 30px;
+    margin-left: 80px;
+  }
+
+  /* .Different .Content{
+    text-align: left;
+  } */
+  .Different .Content p{
+    font-size: 13px;
+    text-align: left;
+  }
+
+  /* .card {
+    width: 350px;
+    height: 400px;
+    background: rgb(255, 255, 252);
+    border-radius: 5%;
+    margin-bottom: 7rem;
+    margin-top: 40px;
+    text-align: center;
+    padding: 5px;
+    text-transform: capitalize;
+  } */
+
+  .Different {
+    display:inline-block;
+    /* margin-bottom: 2rem; */
+    justify-content: center;
+  }
+  .Different img {
+    width: 450px;
+    object-fit: cover;
+  }
+  /* .Different .Content .first-content li p{
+    font-size: 8px;
+  } */
+  .Different .Content .parent-talk{
+    display: inline-block;
+    justify-content: center;
+  }
+}
+
+
 
 .upper-container {
   width: inherit;
