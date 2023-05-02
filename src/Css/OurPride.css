@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 .pride{
     margin-top: -14rem;
 }
@@ -6,7 +11,7 @@
     font-weight: 600;
 }
 .pride-img img{
-    width: 75rem;
+    max-width: 75rem;
     height: 500px;
     border-radius: 20px;
 }

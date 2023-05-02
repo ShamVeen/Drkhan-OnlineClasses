@@ -8,22 +8,21 @@ export default function Different() {
       {/* <Heading primary="Unique" secondary="How are we different?" /> */}
 
       <div className="Different">
-        <img src={stdStudy} alt="study" className='girl-study'/>
+        <img src={stdStudy} alt="study" className="girl-study" />
         <div className="Content">
           <ul className="first-content">
             <li>
               <p>
-                <img src={bluepin} alt=""/>
-                Our Live class program is a perfect<br/> mix of new age learning
-                methods, conventional<br/> teaching and practice methods, to prepare<br/>
+                <img src={bluepin} alt="" />
+                Our Live class program is a perfect mix of new age learning
+                methods, conventional teaching and practice methods, to prepare
                 Pre-Medical students.
               </p>
             </li>
             <li>
               <p>
-                <img src={bluepin}  alt=""/>{' '}
-                TargetBased live Classes<br/> (NOT TIME BOUND) Live classes are
-               <br/> Recorded for UNLIMITED revision
+                <img src={bluepin} alt="" /> TargetBased live Classes (NOT TIME
+                BOUND) Live classes are Recorded for UNLIMITED revision
               </p>
             </li>
             {/* <li>
@@ -44,34 +43,33 @@ export default function Different() {
           {/* <ul>
             <li> */}
           <p>
-            <img src={bluepin} alt="" />{' '}
-            Media Rich engaging content.
+            <img src={bluepin} alt="" /> Media Rich engaging content.
             <br />
-            <img src={bluepin}  alt=""/>{' '}
-            Batch size no more then 10 students.
+            <img src={bluepin} alt="" /> Batch size no more then 10 students.
             <br />
-            <img src={bluepin} alt="" /> REAL
-            TIME doubt clearance and 24x7 availiblity<br/> on WhatsApp.
+            <img src={bluepin} alt="" /> REAL TIME doubt clearance and 24x7
+            availiblity on WhatsApp.
           </p>
           {/* </li>
           </ul> */}
         </div>
-        <img src={realtime} alt="study" className='real-time'/>
+        <img src={realtime} alt="study" className="real-time" />
       </div>
 
       <div className="Different">
-        <img src={Happy} alt="study" className='happy'/>
+        <img src={Happy} alt="study" className="happy" />
 
         <div className="Content">
           {/* <Heading primary="Unique" secondary="How are we different?" /> */}
-          <ul className='parent-talk'>
+          <ul className="parent-talk">
             <li>
               <p>
-                <img src={bluepin}  alt=''/>{' '}
-                PARENTS can talk with teachers on a weekly<br/> basis.<br/>
-                <img src={bluepin}  alt=''/> Daily Practice
-                Papers (DPP), Previous year <br/>paper (PYP), Higher order thinking
-                (HOT) questions<br/> provided for an excellent learning experience
+                <img src={bluepin} alt="" /> PARENTS can talk with teachers on a
+                weekly basis.
+                <br />
+                <img src={bluepin} alt="" /> Daily Practice Papers (DPP),
+                Previous year paper (PYP), Higher order thinking (HOT) questions
+                provided for an excellent learning experience
               </p>
             </li>
           </ul>

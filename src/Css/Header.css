@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .Header {
   display: flex;
   position: sticky;
@@ -8,7 +14,7 @@
   padding: 0px 1rem;
   margin: 0;
   height: 60px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 a {
   color: white;
@@ -53,4 +59,21 @@ a {
 
 
 
+@media(max-width: 414px){
+  .Header{
+    /* width: 100%; */
+    display: flex;
+    justify-content:space-evenly;
+    width: 100%;
+}
+.Header a{
+  font-size: 7px;
+}
+
+.Header p{
+  font-size: 7px;
+  display: flex;
+  /* position: relative; */
+}
+}
 

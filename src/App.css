@@ -1,8 +1,9 @@
 * {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-family: "Titillium Web", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  /* scroll-behavior: smooth; */
 }
 /* * {
   scroll-behavior: smooth;
@@ -19,12 +20,12 @@ body {
   padding: 0px !important; */
   /* font-family: 'Montserrat', sans-serif; */
   /* position: absolute; */
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 @media (max-width: 800px) {
   body {
-  overflow-x: hidden;
+    overflow-x: hidden;
   }
 }
 .button-static {
@@ -131,8 +132,8 @@ body {
     width: 60%;
     height: 300px;
   }
-  .main-page .drkhan{
-    font-size: 1.rem;
+  .main-page .drkhan {
+    font-size: 1rem;
   }
 }
 
@@ -152,21 +153,22 @@ body {
   /* .left-container {
     margin-top: -5rem;
   } */
-  .left-container .left-head{
-    font-size: 0.9rem;
+  .left-container .left-head {
+    font-size: 1rem;
   }
-  .left-container .left-head span{
-    font-size: 1.4rem;
+  .left-container .left-head span {
+    font-size: 1.8rem;
   }
   .left-container .weekly-img img {
     margin-top: 10px;
-    height: 150px;
+    height: 200px;
   }
   .right-container .neet-img {
-    width: 250px;
-    height: 190px;
+    margin-top: -1px;
+    width: 270px;
+    height: 220px;
   }
-  
+
   .Header p {
     display: content;
   }
@@ -176,6 +178,14 @@ body {
   }
 }
 
+
+
+@media (max-width: 414px) {
+  
+  .left-container .left-head {
+    font-size: 1rem;
+  }
+}
 /* .left-container{
   display: flex;
   flex-direction: column;
@@ -267,9 +277,9 @@ body {
   text-transform: capitalize;
 }
 
-.Different p img{
+.Different p img {
   height: 23px;
-   width: 22px;
+  width: 22px;
 }
 @media (max-width: 767px) {
   .Different {
@@ -284,30 +294,30 @@ body {
 
   .Different .Content img {
     height: 10px;
-    width: 20px
+    width: 20px;
   }
-  .Different .girl-study{
+  .Different .girl-study {
     height: 300px;
     width: 300px;
   }
-  .Different .real-time{
+  .Different .real-time {
     height: 300px;
     width: 280px;
   }
-  .Different .happy{
+  .Different .happy {
     height: 300px;
     width: 280px;
   }
-  .Content{
+  .Content {
     margin-right: 20px;
   }
-  .Different .Content p{
+  .Different .Content p {
     font-size: 10px;
   }
-  .Content .first-content{
+  .Content .first-content {
     margin-left: -70px;
   }
-  .Content .parent-talk{
+  .Content .parent-talk {
     margin-left: -80px;
   }
   .card {
@@ -320,7 +330,6 @@ body {
     /* padding: 5px; */
     text-transform: capitalize;
   }
-  
 }
 
 @media (max-width: 574px) {
@@ -330,10 +339,10 @@ body {
     margin-left: 80px;
   }
 
-  .Different .Content{
+  .Different .Content {
     text-align: left;
   }
-  .Different .Content p{
+  .Different .Content p {
     font-size: 13px;
     text-align: left;
   }
@@ -351,7 +360,7 @@ body {
   } */
 
   .Different {
-    display:grid;
+    display: grid;
     /* margin-bottom: 2rem; */
   }
   .Different img {
@@ -360,9 +369,7 @@ body {
   }
 }
 
-
-
-@media (max-width: 414px) {
+@media (max-width: 415px) {
   .teachers {
     display: grid;
     margin-top: 30px;
@@ -372,25 +379,19 @@ body {
   /* .Different .Content{
     text-align: left;
   } */
-  .Different .Content p{
+  .Different .Content p {
     font-size: 13px;
     text-align: left;
   }
 
-  /* .card {
-    width: 350px;
-    height: 400px;
+  .card {
+    width: 340px;
+    height: 370px;
     background: rgb(255, 255, 252);
-    border-radius: 5%;
-    margin-bottom: 7rem;
-    margin-top: 40px;
-    text-align: center;
-    padding: 5px;
-    text-transform: capitalize;
-  } */
+  }
 
   .Different {
-    display:inline-block;
+    display: inline-block;
     /* margin-bottom: 2rem; */
     justify-content: center;
   }
@@ -401,13 +402,11 @@ body {
   /* .Different .Content .first-content li p{
     font-size: 8px;
   } */
-  .Different .Content .parent-talk{
+  .Different .Content .parent-talk {
     display: inline-block;
     justify-content: center;
   }
 }
-
-
 
 .upper-container {
   width: inherit;

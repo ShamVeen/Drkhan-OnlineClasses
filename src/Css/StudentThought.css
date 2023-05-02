@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
 .student-thought{
 	background-color: #187466;
     height: 90vh;
@@ -143,3 +149,66 @@
         display: none;
     }
 }
+
+
+@media (max-width: 415px) {
+    .student-thought{
+        background-color: #187466;
+        margin-bottom: 10px;
+        height: 127vh;
+        width: 92%;
+    }
+    .student-thought h2{
+        /* text-align: center; */
+        margin-top: 50px;
+        padding-top: 40px;
+        font-size: 1.7rem;
+        /* margin-left: -65px; */
+    }
+    
+    .student-video{
+        display: inline-block;
+        margin-top: 50px;
+    }
+    
+    .student-thought h2{
+        /* text-align: center; */
+        margin-top: 50px;
+        
+    }
+    .video-1{
+        margin-top: 10px;
+        max-width: 90%;
+  height: 250px;
+    }
+    .wahib-talk{
+        margin-left: 5px;
+        height: 150px;
+        width: 400px;
+    }
+    
+    .video-2{
+        margin-top: 100px;
+        max-width: 90%;
+        height: auto;
+    }
+    .nashrah-talk{
+        margin-left: -35px;
+        height: 150px;
+        width: 400px;
+        height: 150px;
+        margin-top: 15rem;
+    }
+    .student-video p{
+        text-align: center;
+        /* margin-top: 170px; */
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: white;
+        margin-left: -70px;
+        display: none;
+    }
+}
+
+
+

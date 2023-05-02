@@ -34,7 +34,7 @@ export default function MainPage(props) {
 
               <div className="weekly-img">
                 {' '}
-                <img src={weeklyimage} alt="weekly-image" />
+                <img src={weeklyimage} alt="weekly" />
               </div>
               {/* <h3 style={{ marginTop: '110px' }}>
                 <img src={rightTick} style={{ height: '20px' }} />{' '}

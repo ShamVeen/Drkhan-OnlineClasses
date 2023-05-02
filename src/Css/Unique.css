@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .heading {
   margin-top: 6rem;
 }
@@ -59,6 +64,50 @@
     border-radius: 30px;
   }
 }
+
+
+
+@media (max-width: 415px) {
+  .heading h3 {
+    color: rgb(26, 114, 114);
+
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-left: -10px;
+  }
+
+  .unique {
+    /* text-align:left; */
+    /* margin-top: -5rem; */
+
+    margin-bottom: 2rem;
+  }
+  .unique-card {
+    /* margin-top: 80px; */
+    /* margin-left: -110px; */
+    min-width: 310px;
+    /* height: 200px; */
+    text-size-adjust: auto;
+    text-align: left;
+  }
+
+  .wavy {
+    /* mask created with 
+      https://css-generators.com/wavy-shapes/ */
+    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 60px;
+    background-color: rgb(56, 150, 105);
+    border-radius: 30px;
+  }
+}
+
+
+
+
+
+
 .wrapper {
   max-width: 60rem;
   margin-inline: auto;

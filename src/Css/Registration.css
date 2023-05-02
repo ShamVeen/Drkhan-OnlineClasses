@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .register {
   display: flex;
   justify-content: center;
@@ -5,7 +11,7 @@
 
 .register img {
   height: 280px;
-  width: 300px;
+  max-width: 300px;
 }
 
 .register-form {
