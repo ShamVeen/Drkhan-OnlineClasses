@@ -45,7 +45,7 @@
 }
 @media (max-width: 574px) {
   .about-neet {
-    margin-top: 280px;
+    margin-top: 120px;
     /* margin-left: -1rem; */
   }
   .about-neet-title {
@@ -65,14 +65,15 @@
   .about-neet-title h2{
     display: inline-block;
     align-items: center;
+    font-size: 18px;
 
   }
 .about-neet .about-neet-dropdown{
-  display:contents;
+  display:inline;
   justify-content: center;
 }
 .neet-1 {
-  font-size: 12px;
+  font-size: 11px;
 }
 .neet-1 img {
   /* display: inline-block; */
