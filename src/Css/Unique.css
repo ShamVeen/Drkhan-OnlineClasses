@@ -90,7 +90,14 @@
     text-size-adjust: auto;
     text-align: left;
   }
-
+  .unique-card-parents {
+    /* margin-top: 80px; */
+    /* margin-left: -110px; */
+    min-width: 310px;
+    /* height: 200px; */
+    text-size-adjust: auto;
+    text-align: left;
+  }
   .wavy {
     /* mask created with 
       https://css-generators.com/wavy-shapes/ */

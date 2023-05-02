@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-/* * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-} */
+
 * {
   margin: 0;
   padding: 0;
@@ -45,7 +40,7 @@ li {
   text-transform: capitalize;
 }
 
-.nav-item a{
+.nav-item a {
   color: rgb(17, 83, 17);
   font-weight: 600;
 }
@@ -70,7 +65,47 @@ button {
   .logo {
     display: flex;
     position: absolute;
-    height: 90px;
+    height: 120px;
+    top: 5px;
+    left: 10px;
+  }
+  .nav-links {
+    display: none;
+  }
+  .nav-links-mobile {
+    position: absolute;
+    display: block;
+    list-style: none;
+    box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    left: 0;
+    top: 10%;
+    transition: all 0.5s ease-in-out;
+    width: 100%;
+    background-color: rgb(175, 241, 182);
+  }
+  ul li {
+    padding: 32px;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+  }
+  .mobile-menu-icon {
+    position: absolute;
+    display: block;
+    right: 30px;
+  }
+  .hero h1 {
+    font-size: 50px;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .logo {
+    display: flex;
+    position: absolute;
+    height: 120px;
     top: 5px;
     left: 10px;
   }
@@ -98,7 +133,7 @@ button {
   .mobile-menu-icon {
     position:absolute;
     display: block;
-    right: 30px;
+    right: 50px;
   }
   .hero h1 {
     font-size: 50px;

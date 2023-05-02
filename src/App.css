@@ -318,7 +318,7 @@ body {
     margin-left: -70px;
   }
   .Content .parent-talk {
-    margin-left: -80px;
+    margin-left: -65px;
   }
   .card {
     width: 280px;
@@ -405,6 +405,9 @@ body {
   .Different .Content .parent-talk {
     display: inline-block;
     justify-content: center;
+  }
+  .Different .real-time{
+    margin-left: 15px;
   }
 }
 
