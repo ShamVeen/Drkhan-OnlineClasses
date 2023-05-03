@@ -72,13 +72,13 @@ export default function Footer() {
                   <a href="#registration">Five Free class</a>
                 </li>
                 <li>
-                  <a href="#">classroom Notes</a>
+                  <a href="">classroom Notes</a>
                 </li>
                 <li>
-                  <a href="#">recording session</a>
+                  <a href="">recording session</a>
                 </li>
                 <li>
-                  <a href="#">practice papers</a>
+                  <a href="">practice papers</a>
                 </li>
               </ul>
             </div>
