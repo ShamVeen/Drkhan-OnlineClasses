@@ -29,7 +29,7 @@ li {
 .nav-links {
   display: flex;
   justify-content: flex-end;
-  max-width: 75%;
+  max-width: 100%;
 }
 
 .nav-links .nav-item {
@@ -103,12 +103,16 @@ button {
 
 
 @media (max-width: 420px) {
+  .navbar{
+    margin-top: 20px;
+  }
   .logo {
     display: flex;
     position: absolute;
     height: 120px;
     top: 5px;
     left: 10px;
+    margin-top: 30px;
   }
   .nav-links {
     display: none;
@@ -133,8 +137,8 @@ button {
   }
   .mobile-menu-icon {
     position:absolute;
-    display: block;
-    right: 50px;
+    /* display: block; */
+    right: 60px;
   }
   .hero h1 {
     font-size: 50px;

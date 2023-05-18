@@ -4,23 +4,23 @@
   box-sizing: border-box;
 }
 
-.heading{
-    /* height: 20vh; */
-    text-align: center;
-    /* margin-top: 10rem; */
-    /* margin-bottom: 2rem; */
+.heading {
+  /* height: 20vh; */
+  text-align: center;
+  /* margin-top: 10rem; */
+  /* margin-bottom: 2rem; */
 }
-.primary-heading{
-  color:rgb(26, 114, 114);
+.primary-heading {
+  color: rgb(26, 114, 114);
   font-size: 1.8rem;
-    font-weight: 600;
-    /* margin-top: 2rem; */
-    /* margin: 0;
+  font-weight: 600;
+  /* margin-top: 2rem; */
+  /* margin: 0;
     padding: 0; */
 }
-.heading h1{
-    font-size: 2.5rem;
-    /* margin: 0;
+.heading h1 {
+  font-size: 2.5rem;
+  /* margin: 0;
     padding: 0; */
 }
 /* .heading h3{
@@ -28,69 +28,66 @@
     
 } */
 
-@media(max-width: 767px){
-    /* .main-page {
+@media (max-width: 767px) {
+  /* .main-page {
       display: list-item;
       gap: 1rem;
       margin-top: 3rem;
     }
    */
-  .Header p{
+  .Header p {
     display: content;
   }
-  
-.heading{
-  /* height: 20vh; */
-  text-align: center;
-  margin-top: 5rem;
-  /* margin-bottom: 2rem; */
-}
-.primary-heading{
-color:rgb(26, 114, 114);
-font-size: 1.2rem;
-  font-weight: 600;
-  /* margin-top: 2rem; */
-  /* margin: 0;
+
+  .heading {
+    /* height: 20vh; */
+    text-align: center;
+    margin-top: 5rem;
+    /* margin-bottom: 2rem; */
+  }
+  .primary-heading {
+    color: rgb(26, 114, 114);
+    font-size: 1.2rem;
+    font-weight: 600;
+    /* margin-top: 2rem; */
+    /* margin: 0;
   padding: 0; */
-}
-.heading h1{
-  font-size: 1.5rem;
-  /* margin: 0;
+  }
+  .heading h1 {
+    font-size: 1.5rem;
+    /* margin: 0;
   padding: 0; */
+  }
 }
 
-  }
-  
-  
-@media(max-width: 414px){
+@media (max-width: 414px) {
   /* .main-page {
     display: list-item;
     gap: 1rem;
     margin-top: 3rem;
   }
  */
-.Header p{
-  display:inline-block;
-}
+  .Header p {
+    display: inline-block;
+  }
 
-.heading{
-/* height: 20vh; */
-/* text-align: center; */
-margin-top: 5rem;
-/* margin-bottom: 2rem; */
-}
-.primary-heading{
-color:rgb(26, 114, 114);
-font-size: 1.2rem;
-font-weight: 600;
-/* margin-top: 2rem; */
-/* margin: 0;
+  .heading {
+    /* height: 20vh; */
+    /* text-align: center; */
+    margin-top: 5rem;
+    /* margin-bottom: 2rem; */
+  }
+  .primary-heading {
+    color: rgb(26, 114, 114);
+    font-size: 1.2rem;
+    font-weight: 600;
+    /* margin-top: 2rem; */
+    /* margin: 0;
 padding: 0; */
-}
-.heading h1{
-font-size: 1.4rem;
-/* margin: 0;
+  }
+  .heading h1 {
+    font-size: 1.4rem;
+    /* margin: 0;
 padding: 0; */
-}
-
+  }
 }

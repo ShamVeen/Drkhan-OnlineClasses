@@ -27,9 +27,7 @@ import Registration from './components/Registration';
 function App() {
   return (
     <>
-      <div>
         <Header />
-      </div>
       <Navbar />
       <MainPage content="" />
 
@@ -71,8 +69,9 @@ function App() {
 
       <Different />
 
-      {/* <div id="testimonials" style={{ marginTop: '-40px' }}> */}
+      <div id="testimonials" style={{ marginLeft: '-30px' }}>
         <Heading primary="Testimonials" secondary="What Our Students Say" />
+        </div>
         <Slider />
       {/* </div> */}
       <div>

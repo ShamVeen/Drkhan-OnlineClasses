@@ -21,13 +21,14 @@ h4 {
 
 @media screen and (min-width: 992px) {
   .section {
-    width: 95vw;
+    width: 90vw;
   }
 }
 
 @media screen and (max-width: 415px) {
-  .section{
-    width: 90vw;
+  .section {
+    width: 75vw;
+    margin-left: -1px;
   }
 }
 .icon {
@@ -135,9 +136,9 @@ article h4 {
 .next {
   right: 0;
 }
-@media (min-width: 800px) {
+@media (max-width: 450px) {
   .text {
-    max-width: 45em;
+    max-width: 35em;
   }
   .prev,
   .next {

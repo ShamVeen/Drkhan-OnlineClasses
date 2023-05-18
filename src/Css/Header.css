@@ -5,17 +5,19 @@
 }
 
 .Header {
+  overflow: hidden;
   display: flex;
   justify-content: space-between;
   position: fixed;
+  top: 0px;
+  left: 0px;
   background: rgb(15, 66, 66);
   color: white;
   align-items: center;
   padding: 0px 1rem;
-  margin: 0;
-  height: 60px;
+  height: 50px;
   width: 100%;
-  /* overflow: hidden; */
+  /* max-width: inherit; */
 }
 a {
   color: white;
@@ -28,49 +30,29 @@ a {
 /* responsive */
 
 @media (max-width: 767px) {
-  .Header {
-    /* width: 100%; */
-    height: auto;
-    display: flex;
-    justify-content: space-between;
+  .Header{
+    width: inherit;
+    height: 40px;
   }
-
   .Header p {
     display: content;
   }
 }
 
-@media (max-width: 574px) {
-  .Header {
-    /* width: 100%; */
-    display: flex;
-    justify-content: space-around;
-  }
-  .Header a {
-    font-size: 8px;
-  }
-
-  .Header p {
-    font-size: 8px;
-    display: flex;
-    /* position: relative; */
-  }
-}
-
 @media (max-width: 414px) {
-  .Header {
-    /* width: 100%; */
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
+
+  .Header{
+    display: inline-block;
+    height: 45px;
   }
   .Header a {
     font-size: 7px;
   }
 
   .Header p {
-    font-size: 7px;
-    display: flex;
+    font-size: 6px;
+    display:inline-block;
+
     /* position: relative; */
   }
 }

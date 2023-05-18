@@ -122,7 +122,7 @@ body {
     gap: 1rem;
     margin-top: 3rem;
     margin-left: 1rem;
-    height: 100vh;
+    height: 85vh;
   }
 
   .Header p {
@@ -138,11 +138,11 @@ body {
 }
 
 @media (max-width: 574px) {
-  .Header {
+  /* .Header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-  }
+  } */
   .main-page {
     display: inline-block;
 
