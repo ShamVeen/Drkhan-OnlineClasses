@@ -33,6 +33,10 @@ margin-top: 8rem;
 }
 
 @media (max-width: 414px) {
+    .faq-area{
+        margin-top: 5rem;
+
+    }
     .faq-body{
         width: fit-content;
     }
