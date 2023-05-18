@@ -69,9 +69,9 @@ function App() {
 
       <Different />
 
-      <div id="testimonials" style={{ marginLeft: '-30px' }}>
+      {/* <div id="testimonials" style={{ marginLeft: '-10px' }}> */}
         <Heading primary="Testimonials" secondary="What Our Students Say" />
-        </div>
+        {/* </div> */}
         <Slider />
       {/* </div> */}
       <div>
