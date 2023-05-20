@@ -185,6 +185,13 @@ body {
   .left-container .left-head {
     font-size: 1rem;
   }
+  #testimonials{
+    margin-top: -80px;
+  }
+  #faculty{
+padding-top: 100px;
+  }
+
 }
 /* .left-container{
   display: flex;

@@ -37,25 +37,25 @@ function AboutUs(props) {
           <div className="about-drkhan">
             <p>
               Dr. Khan has been teaching Zoology and Botany since 2015 producing
-              <br />
-              good ranks in NEET examination. It was going well...{' '}
+              good <br />
+              ranks in NEET examination. It was going well...{' '}
               <span>
                 <b>
-                  then the <br />
-                  Corona outbreak provided opportunity of teaching online in a
-                  multinational
-                  <br /> EdTech to the Overseas students.
+                  then the Corona outbreak
+                  <br /> provided opportunity of teaching online in a
+                  multinational EdTech to the
+                  <br /> Overseas students.
                 </b>
               </span>{' '}
-              Learned to make animation, PPTs, new <br />
-              teaching module and become a "Pro" in the online teaching and exam
+              Learned to make animation, PPTs, new teaching
+              <br /> module and become a "Pro" in the online teaching and exam
               analysis. <br />
               <b>
                 <span>
                   The start of online teaching journey was a huge success
                   academically. <br />
                   And now{' '}
-                  <span style={{ color: 'black', fontSize: '22px' }}>
+                  <span style={{ color: 'black', fontSize: '16px' }}>
                     Dr. Khan
                   </span>{' '}
                   is bouncing back with a team of top teachers who have

@@ -74,8 +74,8 @@
   .heading {
     /* height: 20vh; */
     /* text-align: center; */
-    margin-top: 5rem;
-    margin-left: -1rem;
+    margin-top: 3rem;
+    /* margin-left: -1rem; */
   }
   .primary-heading {
     color: rgb(26, 114, 114);

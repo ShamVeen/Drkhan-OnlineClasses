@@ -27,11 +27,12 @@ import Registration from './components/Registration';
 function App() {
   return (
     <>
-        <Header />
+      <Header />
       <Navbar />
       <MainPage content="" />
-
-      <Heading primary="Meet Our Faculties" secondary="Learn From The Best" />
+      <div id="faculty">
+        <Heading primary="Meet Our Faculties" secondary="Learn From The Best" />
+      </div>
       {/* <div className="teachers" id="teachers">
         <Card
           url={khan}
@@ -69,10 +70,10 @@ function App() {
 
       <Different />
 
-      {/* <div id="testimonials" style={{ marginLeft: '-10px' }}> */}
+      <div id="testimonials">
         <Heading primary="Testimonials" secondary="What Our Students Say" />
-        {/* </div> */}
-        <Slider />
+      </div>
+      <Slider />
       {/* </div> */}
       <div>
         <OurPride />
@@ -81,9 +82,9 @@ function App() {
       {/* <MainPage content="Book Now First 5 Classes Free" /> */}
 
       <FaqArea />
-      
+
       {/* <div style={{ marginTop: '100px' }}> */}
-        <AboutNeet />
+      <AboutNeet />
       {/* </div> */}
       <Footer />
     </>
