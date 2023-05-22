@@ -165,8 +165,8 @@ body {
   }
   .right-container .neet-img {
     margin-top: -1px;
-    width: 270px;
-    height: 220px;
+    width: 310px;
+    height: 240px;
   }
 
   .Header p {
@@ -305,7 +305,7 @@ padding-top: 100px;
   }
   .Different .girl-study {
     height: 300px;
-    width: 300px;
+    width: 400px;
   }
   .Different .real-time {
     height: 300px;
@@ -321,12 +321,12 @@ padding-top: 100px;
   .Different .Content p {
     font-size: 10px;
   }
-  .Content .first-content {
-    margin-left: -70px;
-  }
-  .Content .parent-talk {
+  /* .Content .first-content {
+    margin-left: -40px;
+  } */
+  /* .Content .parent-talk {
     margin-left: -65px;
-  }
+  } */
   .card {
     width: 280px;
     height: 370px;
@@ -346,12 +346,12 @@ padding-top: 100px;
     margin-left: 80px;
   }
 
-  .Different .Content {
-    text-align: left;
+  .Different .Content .second-content {
+    text-align:center;
   }
   .Different .Content p {
     font-size: 13px;
-    text-align: left;
+    /* text-align: left; */
   }
 
   /* .card {
@@ -367,7 +367,7 @@ padding-top: 100px;
   } */
 
   .Different {
-    display: grid;
+    display: inline-block;
     /* margin-bottom: 2rem; */
   }
   .Different img {
@@ -388,13 +388,14 @@ padding-top: 100px;
   } */
   .Different .Content p {
     font-size: 13px;
-    text-align: left;
+    /* text-align: left; */
   }
 
   .card {
     width: 340px;
     height: 370px;
     background: rgb(255, 255, 252);
+    margin-left: 22px;
   }
 
   .Different {
@@ -403,7 +404,7 @@ padding-top: 100px;
     justify-content: center;
   }
   .Different img {
-    width: 450px;
+    width: 500px;
     object-fit: cover;
   }
   /* .Different .Content .first-content li p{

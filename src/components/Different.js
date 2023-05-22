@@ -42,7 +42,7 @@ export default function Different() {
           {/* <Heading primary="Unique" secondary="How are we different?" /> */}
           {/* <ul>
             <li> */}
-          <p>
+          <p className="second-content">
             <img src={bluepin} alt="" /> Media Rich engaging content.
             <br />
             <img src={bluepin} alt="" /> Batch size no more then 10 students.
