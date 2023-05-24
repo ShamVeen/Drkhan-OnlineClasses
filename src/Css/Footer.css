@@ -83,11 +83,11 @@ ul {
 @media (max-width: 767px) {
   .footer-col {
     width: 50%;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 }
 @media (max-width: 574px) {
   .footer-col {
-    width: 90%;
+    width: 100%;
   }
 }

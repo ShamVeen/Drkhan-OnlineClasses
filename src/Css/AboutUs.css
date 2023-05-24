@@ -174,7 +174,7 @@
     width: 350px;
     height: 200px;
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 2px;
   }
   .about-two {
     width: 350px;
@@ -194,7 +194,7 @@
   }
   .about-drkhan {
     width: 350px;
-    margin-left: 20px;
+    margin-left: 10px;
 
   }
   .about-drkhan p {
@@ -205,7 +205,10 @@
   .about-drkhan span {
     font-size: 12px;
   }
-
+.about-harsh{
+  margin-left: 10px;
+  /* padding-top: -10px; */
+}
   .about-harsh p {
     font-size: 12px;
     display: contents;
@@ -215,7 +218,7 @@
     font-size: 12px;
   }
   .about-naureen {
-    margin-left: 30px;
+    margin-left: 10px;
   }
 
   .about-naureen p {
