@@ -64,7 +64,7 @@ function AboutUs(props) {
               </b>
             </p>
           </div>
-          <div className="drkhan">
+          <div className="drkhan-img">
             {/* <img src={drkhan} /> */}
             <Card
               url={khan}

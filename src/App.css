@@ -307,17 +307,17 @@ padding-top: 100px;
     height: 300px;
     width: 400px;
   }
-  .Different .real-time {
+  /* .Different .real-time {
     height: 300px;
     width: 280px;
-  }
-  .Different .happy {
+  } */
+  /* .Different .happy {
     height: 300px;
     width: 280px;
-  }
-  .Content {
+  } */
+  /* .Content {
     margin-right: 20px;
-  }
+  } */
   .Different .Content p {
     font-size: 10px;
   }
@@ -372,7 +372,6 @@ padding-top: 100px;
   }
   .Different img {
     width: 500px;
-    object-fit: cover;
   }
 }
 
@@ -395,24 +394,24 @@ padding-top: 100px;
     width: 340px;
     height: 370px;
     background: rgb(255, 255, 252);
-    margin-left: 22px;
+    margin-left: 20px;
   }
 
   .Different {
     display: inline-block;
     /* margin-bottom: 2rem; */
-    justify-content: center;
+    /* justify-content: center; */
   }
   .Different img {
-    width: 500px;
-    object-fit: cover;
+    width: 600px;
+    /* object-fit: cover; */
   }
   /* .Different .Content .first-content li p{
     font-size: 8px;
   } */
   .Different .Content .parent-talk {
     display: inline-block;
-    justify-content: center;
+    justify-content:left;
   }
   .Different .real-time{
     margin-left: 15px;

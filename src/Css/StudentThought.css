@@ -43,7 +43,7 @@
   .student-thought {
     background-color: #187466;
     margin-bottom: 10px;
-    height: 150vh;
+    height: inherit;
     /* width: 100%; */
   }
   .student-thought h2 {
