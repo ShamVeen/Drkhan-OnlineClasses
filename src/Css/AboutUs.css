@@ -169,6 +169,8 @@
 
   .about-container{
     margin-top: -55px;
+    display: contents;
+    justify-content: center;
   }
   .about-one {
     width: 350px;
@@ -182,11 +184,13 @@
     display: inline-block;
     /* margin-right: 30px; */
     margin-top: 200px;
+    margin-left: 5px;
   }
   .about-three {
     width: 350px;
     height: 200px;
     display: inline-block;
+    margin-left: 5px;
     /* margin-right: 30px; */
   }
   .drkhan-img{
@@ -207,6 +211,7 @@
   }
 .about-harsh{
   margin-left: 10px;
+  margin-top: -60px;
   /* padding-top: -10px; */
 }
   .about-harsh p {
